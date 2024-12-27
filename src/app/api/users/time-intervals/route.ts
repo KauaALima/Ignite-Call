@@ -1,5 +1,5 @@
 import { getServerSession } from 'next-auth'
-import { BuildAuthOptions } from '../../auth/[...nextauth]/route'
+import { BuildAuthOptions } from '../../../../utils/BuildAuthOptions'
 import { NextApiRequest, NextApiResponse } from 'next'
 import { NextResponse } from 'next/server'
 import { z } from 'zod'
