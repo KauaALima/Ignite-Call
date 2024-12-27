@@ -34,8 +34,9 @@ async function getDetails(username: string) {
 //   title: 'Crie uma conta',
 // }
 
-export default async function Schedule({ params }: ScheduleProps) {
-  const { user } = await getDetails(params.username)
+export default async function Schedule(props: { params: ScheduleProps }) {
+  const params = await props.params
+  const { user } = await getDetails(params.params.username)
 
   return (
     <div className="mx-auto mb-4 mt-8 max-w-[852px] px-4 py-0">
