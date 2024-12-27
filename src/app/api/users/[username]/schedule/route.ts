@@ -1,6 +1,6 @@
 /* eslint-disable camelcase */
-import { getGoogleOAuthToken } from '@/lib/google'
-import { prisma } from '@/lib/prisma'
+import { getGoogleOAuthToken } from '../../../../../lib/google'
+import { prisma } from '../../../../../lib/prisma'
 import dayjs from 'dayjs'
 import { google } from 'googleapis'
 import { NextResponse } from 'next/server'

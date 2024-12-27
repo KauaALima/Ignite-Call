@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { prisma } from '@/lib/prisma'
+import { prisma } from '../../../../../lib/prisma'
 import { NextRequest, NextResponse } from 'next/server'
 import { z } from 'zod'
 
