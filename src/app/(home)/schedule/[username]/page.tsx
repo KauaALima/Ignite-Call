@@ -2,11 +2,11 @@ import { prisma } from '../../../../lib/prisma'
 import Image from 'next/image'
 import { ScheduleForm } from './ScheduleForm'
 
-interface ScheduleProps {
+type ScheduleProps = Promise<{
   params: {
     username: string
   }
-}
+}>
 
 async function getDetails(username: string) {
   const user = await prisma.user.findUnique({
