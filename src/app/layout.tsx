@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.css'
-import SessionWrapper from '@/components/SessionWrapper'
+import SessionWrapper from '../components/SessionWrapper'
 
 const roboto = Roboto({
   subsets: ['latin'],
