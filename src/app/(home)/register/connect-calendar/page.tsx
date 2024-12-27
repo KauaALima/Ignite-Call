@@ -1,6 +1,6 @@
 'use client'
 
-import { MultiStep } from '@/components/MultiStep'
+import { MultiStep } from '../../../../components/MultiStep'
 
 import { ArrowRight, Check } from 'lucide-react'
 import type { Metadata } from 'next'
