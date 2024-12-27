@@ -1,7 +1,7 @@
 'use client'
 
 import { twMerge } from 'tailwind-merge'
-import { Calendar } from '@/components/Calendar'
+import { Calendar } from '../../../../../../components/Calendar'
 import dayjs from 'dayjs'
 import 'dayjs/locale/pt-br'
 import { api } from '../../../../../../lib/api'

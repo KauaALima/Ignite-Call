@@ -1,4 +1,4 @@
-import { ClaimUserNameForm } from '@/components/ClaimUserNameForm'
+import { ClaimUserNameForm } from '../../../components/ClaimUserNameForm'
 import type { Metadata } from 'next'
 import Image from 'next/image'
 

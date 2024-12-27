@@ -1,5 +1,6 @@
-import { MultiStep } from '@/components/MultiStep'
-import { UpdateProfileForm } from '@/components/UpdateProfileForm'
+import { MultiStep } from '../../../../components/MultiStep'
+import { UpdateProfileForm } from '../../../../components/UpdateProfileForm'
+
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {

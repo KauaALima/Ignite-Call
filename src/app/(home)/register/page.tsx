@@ -1,5 +1,5 @@
-import { MultiStep } from '@/components/MultiStep'
-import { RegisterForm } from '@/components/RegisterForm'
+import { MultiStep } from '../../../components/MultiStep'
+import { RegisterForm } from '../../../components/RegisterForm'
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
