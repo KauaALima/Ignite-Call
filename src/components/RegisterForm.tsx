@@ -1,6 +1,6 @@
 'use client'
 
-import { api } from '@/lib/api'
+import { api } from '../lib/api'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { AxiosError } from 'axios'
 import { ArrowRight } from 'lucide-react'

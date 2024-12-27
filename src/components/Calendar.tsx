@@ -1,10 +1,10 @@
 'use client'
 
-import { getWeekDays } from '@/utils/get-week-days'
+import { getWeekDays } from '../utils/get-week-days'
 import { ChevronLeft, ChevronRight } from 'lucide-react'
 import { useMemo, useState } from 'react'
 import dayjs from 'dayjs'
-import { api } from '@/lib/api'
+import { api } from './../lib/api'
 import { useQuery } from '@tanstack/react-query'
 import { useParams } from 'next/navigation'
 

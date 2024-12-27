@@ -1,6 +1,6 @@
 'use client'
 
-import { api } from '@/lib/api'
+import { api } from '../lib/api'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { ArrowRight } from 'lucide-react'
 import { useSession } from 'next-auth/react'

@@ -9,7 +9,7 @@ import { ArrowRight } from 'lucide-react'
 import { Controller, useFieldArray, useForm } from 'react-hook-form'
 import { z } from 'zod'
 import { converTimeToString } from '../../../../utils/conver-time-string-to-minutes'
-import { api } from '@/lib/api'
+import { api } from '../../../../lib/api'
 import { useRouter } from 'next/navigation'
 import type { Metadata } from 'next'
 

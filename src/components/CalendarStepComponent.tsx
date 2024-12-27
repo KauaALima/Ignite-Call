@@ -3,7 +3,7 @@ import { Calendar } from './Calendar'
 import { type Dispatch, type SetStateAction } from 'react'
 import dayjs from 'dayjs'
 import 'dayjs/locale/pt-br'
-import { api } from '@/lib/api'
+import { api } from '../lib/api'
 import { useParams } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
 
