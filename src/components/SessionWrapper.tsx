@@ -5,7 +5,7 @@ import '../utils/dayjs'
 import { QueryClientProvider } from '@tanstack/react-query'
 
 import React from 'react'
-import { queryClient } from '@/lib/react_querry'
+import { queryClient } from '../lib/react_querry'
 
 const SessionWrapper = ({ children }: { children: React.ReactNode }) => {
   return (
